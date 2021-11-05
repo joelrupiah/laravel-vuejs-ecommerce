@@ -1,0 +1,44 @@
+{
+    "options": {
+        "flavor": [
+            {
+                "value": "chocolate",
+                "label": "chocolate"
+            },
+            {
+                "value": "vanilla",
+                "label": "vanilla"
+            },
+            {
+                "value": "strawberry",
+                "label": "strawberry"
+            },
+            {
+                "value": "dry",
+                "label": "dry"
+            }
+        ],
+        "occassions": [
+            {
+                "value": "weddings",
+                "label": "weddings"
+            },
+            {
+                "value": "housewarmings",
+                "label": "housewarmings"
+            },
+            {
+                "value": "babyshower",
+                "label": "babyshower"
+            },
+            {
+                "value": "dowry",
+                "label": "dowry"
+            },
+            {
+                "value": "houseparty",
+                "label": "houseparty"
+            }
+        ]
+    }
+}
