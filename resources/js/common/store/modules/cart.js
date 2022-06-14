@@ -17,24 +17,6 @@ export const cart = {
                     context.commit('productList', res.data)
                 })
         },
-        // getAllProduct(context, payload){
-        //     Axios.get('/product-list/?page='+payload)
-        //         .then(res=>{
-        //             context.commit('productList', res.data.products)
-        //         })
-        // },
-        // deleteProduct(context, payload){
-        //     Axios.delete('/admin/product/'+payload)
-        //         .then(res=>{
-        //             context.commit('productList', res.data.products)
-        //         })
-        // },
-        // editProduct(context, payload){
-        //     Axios.get(`/admin/product/${payload}/edit`)
-        //         .then(res=>{
-        //             context.commit('singleProduct', res.data.product)
-        //         })
-        // },
         
     },
     mutations: {

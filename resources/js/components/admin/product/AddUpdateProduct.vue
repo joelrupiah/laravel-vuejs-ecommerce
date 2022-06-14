@@ -196,7 +196,6 @@ export default {
                 .catch(err=>{
                     this.errors = err.response.data.errors
                 })
-
         },
         updateProduct(formData){
             axios.post(`/admin/product-update/${this.$route.params.productId}`,formData)
